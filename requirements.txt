@@ -50,7 +50,6 @@ qrcode
 randomstuff.py
 regex
 requests
-search-engine-parser
 selenium
 setuptools
 ShazamAPI
