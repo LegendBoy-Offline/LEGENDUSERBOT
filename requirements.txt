@@ -36,7 +36,6 @@ opencv-python-headless
 Pillow
 prettytable
 psutil
-psycopg2
 pyfiglet
 PyGithub
 pygments
