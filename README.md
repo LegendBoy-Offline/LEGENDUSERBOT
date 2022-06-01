@@ -8,5 +8,11 @@ HERE IS ALL THE PLUGIN OF LEGENDBOT
 - Rename the Fork Repo Put Anything Example : LEGEND1BOT, HSKSBOT, LEGENDOFFBOT etc...
 - Now U Can Deploy This Bot
 
+
+Deploy your bot on `Okteto`
+  
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com)
+
+
 ## Repl
 - Click Here - [REPL](https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py)
