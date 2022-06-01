@@ -1,13 +1,8 @@
-FROM LEGEND-AI/LEGENDBOT:slim-buster
-
-#clonning repo 
-RUN git clone https://github.com/LEGEND-AI/LEGENDBOT.git /root/userbot
-#working directory 
-WORKDIR /root/userbot
-
-# Install requirements
+FROM python:3.9.2-slim-buster
+RUN mkdir /app && chmod 777 /app
+WORKDIR /app
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt -qq update && apt -qq install -y git ffmpeg
+COPY . .
 RUN pip3 install --no-cache-dir -r requirements.txt
-
-ENV PATH="/home/userbot/bin:$PATH"
-
-CMD ["python3","-m","userbot"]
+CMD ["bash","start.sh"]
