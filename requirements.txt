@@ -64,7 +64,7 @@ ujson
 urlextract
 validators
 vcsi
-wand
+https://github.com/emcconville/wand
 wget
 yt_dlp
 fake_useragent
