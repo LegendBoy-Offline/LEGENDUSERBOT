@@ -2,6 +2,8 @@ from . import fonts
 from . import memeshelper as swtmemes
 from .aiohttp_helper import AioHttp
 from .utils import *
+from .utils.extdl import install_pip
+
 
 type = True
 check = 0
