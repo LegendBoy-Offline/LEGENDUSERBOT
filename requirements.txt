@@ -64,7 +64,8 @@ ujson
 urlextract
 validators
 vcsi
-foliantcontrib.imagemagick
+MagickWand
+ImageMagick
 Wand==0.6.6
 wget
 yt_dlp
