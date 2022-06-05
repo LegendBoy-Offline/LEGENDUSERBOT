@@ -64,7 +64,8 @@ ujson
 urlextract
 validators
 vcsi
-Wand==0.5.3
+foliantcontrib.imagemagick
+Wand==0.6.6
 wget
 yt_dlp
 fake_useragent
